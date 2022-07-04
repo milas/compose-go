@@ -622,10 +622,10 @@ func TestSubstitutionsWithShellEnvPrecedence(t *testing.T) {
 
 	envFileName := "fixtures/substitutions.env"
 	expectedValues := map[string]string{
-		"OPTION_A": "5",
-		"OPTION_B": "5",
-		"OPTION_C": "5",
-		"OPTION_D": "55",
+		"OPTION_A": "1",
+		"OPTION_B": "1",
+		"OPTION_C": "1",
+		"OPTION_D": "11",
 		"OPTION_E": "",
 	}
 
